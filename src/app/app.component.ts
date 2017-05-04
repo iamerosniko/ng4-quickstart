@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 
+import { BlinkDirective } from '../blinker/blinker.directive';
 @Component({
   selector: 'my-app',
   template: `
     <b>Angular 2 Component using Observables!</b>
-	  
+		<h3>Here is a normal H3 Tag</h3>
+		<h3 class="blinker1" alBlink>And here is an example H3 tag that blinks!</h3>
+      
 	  <h5 style="margin-bottom: 0">VALUES</h5>
 	  <div>{{ values.toString() }}</div>
 	  
