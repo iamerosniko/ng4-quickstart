@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 
-import { BlinkDirective } from '../blinker/blinker.directive';
 @Component({
   selector: 'my-app',
   template: `
