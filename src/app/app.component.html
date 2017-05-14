@@ -2,3 +2,11 @@
   [viewDate]="viewDate"
   [events]="events">
 </mwl-calendar-month-view>
+
+<td>
+  <mwl-demo-utils-date-time-picker
+    [(date)]="event.end"
+    (dateChange)="refresh.next()"
+    placeholder="Not set">
+  </mwl-demo-utils-date-time-picker>
+</td>
