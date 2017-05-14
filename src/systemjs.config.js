@@ -12,9 +12,9 @@
     map: {
       // our app is within the app folder
       'app': 'app',
-      
       // angular bundles
-      '@angular/animations':'npm:/@angular/animations/bundles/animations-browser.umd.js',
+      '@angular/animations':'npm:/@angular/animations/bundles/animations.umd.js',
+      '@angular/animations/browser': 'npm:@angular/animations/bundles/animations-browser.umd.js',
       '@angular/core': 'npm:@angular/core/bundles/core.umd.js',
       '@angular/common': 'npm:@angular/common/bundles/common.umd.js',
       '@angular/compiler': 'npm:@angular/compiler/bundles/compiler.umd.js',
@@ -25,6 +25,7 @@
       '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
       //calendar
       'angular-calendar': 'npm:angular-calendar/dist/umd/angular-calendar.js',
+      //'angular-calendar': 'npm:angular-calendar/dist/umd/angular-calendar.js',
       'calendar-utils': 'npm:calendar-utils/dist/umd/calendarUtils.js',
       'angular-resizable-element': 'npm:angular-resizable-element/dist/umd/angular-resizable-element.js',
       'angular-draggable-droppable': 'npm:angular-draggable-droppable/dist/umd/angular-draggable-droppable.js',
@@ -45,10 +46,6 @@
       },
       rxjs: {
         defaultExtension: 'js'
-      },
-      'ng2-datetime-picker': {
-          main: 'ng2-datetime-picker.umd.js',
-          defaultExtension: 'js'
       },
       'date-fns':{
         main: 'index.js'
